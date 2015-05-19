@@ -32,6 +32,7 @@ spec = Gem::Specification.new do |s|
   s.authors = ["Tom Lea"]
   s.email   = %q{commit@tomlea.co.uk}
 
+  s.add_dependency 'gserver'
   s.platform = Gem::Platform::RUBY
 end
 
