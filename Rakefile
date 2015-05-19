@@ -1,7 +1,7 @@
 require 'rubygems'
 require 'rake'
 require 'rake/testtask'
-require 'rake/gempackagetask'
+require 'rubygems/package_task'
 
 desc 'Default: run unit tests.'
 task :default => :test
@@ -35,7 +35,7 @@ spec = Gem::Specification.new do |s|
   s.platform = Gem::Platform::RUBY
 end
 
-Rake::GemPackageTask.new spec do |pkg|
+Gem::PackageTask.new spec do |pkg|
   pkg.need_tar = true
   pkg.need_zip = true
 end
