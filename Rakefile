@@ -15,7 +15,7 @@ end
 
 spec = Gem::Specification.new do |s|
   s.name        = "popthis"
-  s.version     = "0.3"
+  s.version     = "0.4"
   s.summary     = "Run a pop server serving up the current dir."
   s.description = "Run a pop server serving up the current dir."
 
