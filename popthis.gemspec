@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.email = "commit@tomlea.co.uk"
   s.executables = ["popthis"]
   s.extra_rdoc_files = ["README.markdown"]
-  s.files = ["Gemfile", "Gemfile.lock", "README.markdown", "Rakefile", "bin", "bin/popthis", "lib", "lib/pop_this.rb", "popthis.gemspec"]
+  s.files = ["Gemfile", "README.markdown", "Rakefile", "bin", "bin/popthis", "lib", "lib/pop_this.rb", "popthis.gemspec"]
   s.rdoc_options = ["--line-numbers", "--inline-source", "--main", "README.textile"]
   s.rubygems_version = "2.4.6"
   s.summary = "Run a pop server serving up the current dir."
